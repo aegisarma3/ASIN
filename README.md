@@ -1,4 +1,4 @@
-# README #
+# AEGIS MOD Versão 0.5 #
 
 Este repositório é para o modpack do AEGIS
 
