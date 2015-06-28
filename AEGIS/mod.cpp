@@ -1,0 +1,12 @@
+name = "AEGIS";
+picture = "logo_aegis.paa";
+actionName = "Website";
+action = "http://aegis.zonadecombate.com.br";
+description = "AEGIS - A collection of uniforms for the AEGIS units.";
+logo = "logo_aegis_small.paa";
+logoOver = "logo_aegis_small.paa";
+tooltip = "AEGIS";
+tooltipOwned = "AEGIS PMC";
+overview = "A escrever.";
+author = "Toaster";
+overviewPicture = "logo_aegis_desc.paa";
