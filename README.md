@@ -4,8 +4,9 @@ Este repositório é para o modpack do AEGIS
 
 ### Como faço para ajudar? ###
 
-* Use o [Issues](https://bitbucket.org/aegisarma3/asin/issues) para criar avisos de bug (BUG), propostas de novas coisas (PROPOSAL) ou melhorias
+* Use o [Issues](https://github.com/aegisarma3/ASIN/issues) para criar avisos de bugs, propostas ou melhorias.
+* No caso de novos itens, utilize 1 issue por item. (ex: 1 issue para capacete, 1 issue para óculos, etc)
 
 ### Como faço para baixar? ###
 
-* Na área de [Downloads](https://bitbucket.org/aegisarma3/asin/downloads), baixe a última versão.
+* Na área de [Releases](https://github.com/aegisarma3/ASIN/releases), baixe a última versão.
