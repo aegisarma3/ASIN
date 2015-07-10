@@ -7,7 +7,7 @@ class CfgPatches {
        	weapons[] = {"U_AEGIS_BLK_POLO_JEANS_BASE","U_AEGIS_BLUE_POLO_JEANS_BASE","U_AEGIS_WHITE_POLO_JEANS_BASE","U_AEGIS_BLUEPLAID_POLO_JEANS_BASE","U_AEGIS_WHITE_TAN_BASE","U_AEGIS_WHITE_OLIVE_BASE","U_AEGIS_WHITE_BLACK_BASE","U_AEGIS_BLK_TAN_BASE","U_AEGIS_BLK_OLIVE_BASE","U_AEGIS_TSHIRT_BLK_UCP_BASE","U_AEGIS_TSHIRT_BLK_BASE"};
         requiredVersion = "0.1";
         requiredAddons[] = {"A3_Characters_F","A3_Characters_F_Beta","A3_Characters_F_Gamma","A3_Characters_F_EPA","A3_Characters_F_EPB"};
-        author[] = {"Toaster"};
+        author[] = {"AEGIS Team"};
         authorUrl = "https://aegis.zonadecombate.com.br";
        	version = "0.3";
     };
@@ -26,6 +26,8 @@ class CfgPatches {
 class CfgVehicles
 {
 	class B_Soldier_base_F;
+	class I_Soldier_base_F;
+	class I_G_Soldier_base_F;
 
 	
 
@@ -49,7 +51,7 @@ class CfgVehicles
 		_generalMacro = "B_Soldier_03_f";
 		scope = 1;
 		modelsides[] = {3,2,1,0};
-		author = "Toaster";
+		author = "AEGIS Team";
 		side = 1;
 		displayName = "Guarda Costas";
 		faction = "AEGIS";
@@ -71,7 +73,7 @@ class CfgVehicles
 	class U_AEGIS_BLUE_POLO_JEANS_BASE: U_AEGIS_BLK_POLO_JEANS_BASE
 	{
 		scope = 1;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "Guarda Costas 2";
 		nakedUniform = "U_BasicBody";
 		uniformClass = "U_AEGIS_BLUE_POLO_JEANS";
@@ -83,7 +85,7 @@ class CfgVehicles
 	class U_AEGIS_WHITE_POLO_JEANS_BASE: U_AEGIS_BLK_POLO_JEANS_BASE
 	{
 		scope = 1;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "Guarda Costas 3";
 		nakedUniform = "U_BasicBody";
 		uniformClass = "U_AEGIS_WHITE_POLO_JEANS";
@@ -95,7 +97,7 @@ class CfgVehicles
 	class U_AEGIS_BLUEPLAID_POLO_JEANS_BASE: U_AEGIS_BLK_POLO_JEANS_BASE
 	{
 		scope = 1;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "Guarda Costas 3";
 		nakedUniform = "U_BasicBody";
 		uniformClass = "U_AEGIS_BLUEPLAID_POLO_JEANS";
@@ -174,6 +176,77 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_tshirt_BLK.paa","\a3\characters_f\Common\Data\basicbody_black_co.paa"};
 		hiddenSelectionsMaterials[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_rollup_clothing.rvmat","\a3\characters_f\Common\Data\basicbody.rvmat"};
 	};
+
+
+
+	class U_AEGIS_UNIFORM_BLK_BASE: I_Soldier_base_F
+	{
+		scope = 1;
+		modelsides[] = {3,2,1,0};
+		author = "AEGIS Team";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "U_AEGIS_UNIFORM_BLK_BASE";
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_PG_Blk.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+	};
+
+
+	class U_AEGIS_UNIFORM_TAN_BASE: I_Soldier_base_F
+	{
+		scope = 1;
+		modelsides[] = {3,2,1,0};
+		author = "AEGIS Team";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "U_AEGIS_UNIFORM_TAN_BASE";
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_PG_Blk_Tan.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+	};
+
+
+	class U_AEGIS_UNIFORM_OLIVE_BASE: I_Soldier_base_F
+	{
+		scope = 1;
+		modelsides[] = {3,2,1,0};
+		author = "AEGIS Team";
+		nakedUniform = "U_BasicBody";
+		uniformClass = "U_AEGIS_UNIFORM_OLIVE_BASE";
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_PG_Blk_Grn.paa"};
+		model = "\A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
+	};
+
+
+	class U_AEGIS_GUER_OLIVE_BASE: I_G_Soldier_base_F
+	{
+		
+		scope = 1;
+		
+		author = "AEGIS Team";
+		nakedUniform = "U_BasicBody";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
+		uniformClass = "U_AEGIS_GUER_OLIVE_BASE";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_guer_olive.paa"};
+	};
+
+
+
+
+	class U_AEGIS_GUER_BLK_BASE: I_G_Soldier_base_F
+	{
+		
+		scope = 1;
+		
+		author = "AEGIS Team";
+		nakedUniform = "U_BasicBody";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
+		uniformClass = "U_AEGIS_GUER_BLK_BASE";
+		hiddenSelections[] = {"camo","insignia"};
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_guer_blk.paa"};
+	};
+
+
+
+
 
 
 
@@ -291,7 +364,7 @@ class cfgWeapons
 	class U_AEGIS_BLK_POLO_JEANS: Uniform_Base
 	{
 		scope = 2;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Polo Preta";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
@@ -307,7 +380,7 @@ class cfgWeapons
 	class U_AEGIS_BLUE_POLO_JEANS: Uniform_Base
 	{
 		scope = 2;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Polo Azul";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
@@ -323,7 +396,7 @@ class cfgWeapons
 	class U_AEGIS_WHITE_POLO_JEANS: Uniform_Base
 	{
 		scope = 2;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Polo Branca";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
@@ -339,7 +412,7 @@ class cfgWeapons
 	class U_AEGIS_BLUEPLAID_POLO_JEANS: Uniform_Base
 	{
 		scope = 2;
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Junina Tática";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
@@ -458,6 +531,97 @@ class cfgWeapons
 			mass = 40;
 		};
 	};
+
+
+	class U_AEGIS_UNIFORM_BLK: Uniform_Base
+	{
+		scope = 2;
+		author = "AEGIS Team";
+		displayName = "[AEGIS] Uniforme Preto";
+		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\icon_U_PG_RS_Blk.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "U_AEGIS_UNIFORM_BLK_BASE";
+			containerClass = "Supply40";
+			mass = 60;
+		};
+	};
+
+
+	class U_AEGIS_UNIFORM_TAN: Uniform_Base
+	{
+		scope = 2;
+		author = "AEGIS Team";
+		displayName = "[AEGIS] Uniforme Deserto";
+		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\icon_U_PG_RS_Blk_Tan.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "U_AEGIS_UNIFORM_TAN_BASE";
+			containerClass = "Supply40";
+			mass = 60;
+		};
+	};
+
+
+	class U_AEGIS_UNIFORM_OLIVE: Uniform_Base
+	{
+		scope = 2;
+		author = "AEGIS Team";
+		displayName = "[AEGIS] Uniforme Oliva";
+		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\icon_U_PG_RS_Blk_Grn.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "U_AEGIS_UNIFORM_OLIVE_BASE";
+			containerClass = "Supply40";
+			mass = 60;
+		};
+	};
+
+
+
+	class U_AEGIS_GUER_OLIVE: Uniform_Base
+	{
+		author = "AEGIS Team";
+		scope = 2;
+		displayName = "[AEGIS] Uniforme Casual Olive";
+		picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_guer_olive.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "U_AEGIS_GUER_OLIVE_BASE";
+			containerClass = "Supply30";
+			mass = 30;
+		};
+	};
+
+
+
+	class U_AEGIS_GUER_BLK: Uniform_Base
+	{
+		author = "AEGIS Team";
+		scope = 2;
+		displayName = "[AEGIS] Uniforme Casual Preta";
+		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\icon_U_G_Guerrilla_blk_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_guer_blk.paa"};
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "U_AEGIS_GUER_BLK_BASE";
+			containerClass = "Supply30";
+			mass = 30;
+		};
+	};
 	
 
 
@@ -479,7 +643,7 @@ class cfgWeapons
 
 	class H_Capbw_pmc: ItemCore
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "[AEGIS] Boné Preto Virado";
@@ -500,7 +664,7 @@ class cfgWeapons
 
 	class H_Capbw_tan_pmc: H_Capbw_pmc
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Boné Bege Virado";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\headgear\H_capb_tan_pmc.paa"};
@@ -510,7 +674,7 @@ class cfgWeapons
 
 	class H_Cap_pmc: H_Cap_red
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Boné Preto";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F\common\capb";
@@ -530,7 +694,7 @@ class cfgWeapons
 
 	class H_Cap_tan_pmc: H_Cap_pmc
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Boné Bege";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\headgear\H_capb_tan_pmc.paa"};
@@ -539,7 +703,7 @@ class cfgWeapons
 	
 	class H_Booniehat_blk: H_Booniehat_khk
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Booniehat Preto";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\headgear\H_booniehat_blk_co.paa"};
@@ -548,7 +712,7 @@ class cfgWeapons
 
 	class H_Beret_AEGIS_clean: H_Beret_02
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		displayName = "[AEGIS] Boina Preta";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
@@ -562,7 +726,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeCurator = 2;
-		author = "Toaster";
+		author = "AEGIS Team";
 		_generalMacro = "H_Cap_AEGIS_blk";
 		displayName = "[AEGIS] Cap Preto";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
@@ -573,7 +737,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		scopeCurator = 2;
-		author = "Toaster";
+		author = "AEGIS Team";
 		_generalMacro = "H_Cap_AEGIS_tan";
 		displayName = "[AEGIS] Cap Deserto";
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
@@ -660,7 +824,7 @@ class cfgWeapons
 
 	class V_aegis_carrier_lite_blk: ItemCore
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		_generalMacro = "V_aegis_carrier_lite_blk";
 		displayName = "[AEGIS] Colete Leve (Preto)";
 		scope = 2;
@@ -683,7 +847,7 @@ class cfgWeapons
 
 	class V_aegis_carrier_rig_blk: ItemCore
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		_generalMacro = "V_aegis_carrier_rig_blk";
 		displayName = "[AEGIS] Colete Médio (Preto)";
 		scope = 2;
@@ -706,7 +870,7 @@ class cfgWeapons
 
 	class V_aegis_carrier_lite_tan: ItemCore
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		_generalMacro = "V_aegis_carrier_lite_tan";
 		displayName = "[AEGIS] Colete Leve (Deserto)";
 		scope = 2;
@@ -729,7 +893,7 @@ class cfgWeapons
 
 	class V_aegis_carrier_rig_tan: ItemCore
 	{
-		author = "Toaster";
+		author = "AEGIS Team";
 		_generalMacro = "V_aegis_carrier_rig_tan";
 		displayName = "[AEGIS] Colete Médio (Deserto)";
 		scope = 2;
