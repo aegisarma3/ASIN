@@ -14,29 +14,29 @@ class CfgPatches {
 };
 
 
-// oooooo     oooo oooooooooooo ooooo   ooooo ooooo   .oooooo.   ooooo        oooooooooooo  .oooooo..o 
-//  `888.     .8'  `888'     `8 `888'   `888' `888'  d8P'  `Y8b  `888'        `888'     `8 d8P'    `Y8 
-//   `888.   .8'    888          888     888   888  888           888          888         Y88bo.      
-//    `888. .8'     888oooo8     888ooooo888   888  888           888          888oooo8     `"Y8888o.  
-//     `888.8'      888    "     888     888   888  888           888          888    "         `"Y88b 
-//      `888'       888       o  888     888   888  `88b    ooo   888       o  888       o oo     .d8P 
-//       `8'       o888ooooood8 o888o   o888o o888o  `Y8bood8P'  o888ooooood8 o888ooooood8 8""88888P'  
+// oooooo     oooo oooooooooooo ooooo   ooooo ooooo   .oooooo.   ooooo        oooooooooooo  .oooooo..o
+//  `888.     .8'  `888'     `8 `888'   `888' `888'  d8P'  `Y8b  `888'        `888'     `8 d8P'    `Y8
+//   `888.   .8'    888          888     888   888  888           888          888         Y88bo.
+//    `888. .8'     888oooo8     888ooooo888   888  888           888          888oooo8     `"Y8888o.
+//     `888.8'      888    "     888     888   888  888           888          888    "         `"Y88b
+//      `888'       888       o  888     888   888  `88b    ooo   888       o  888       o oo     .d8P
+//       `8'       o888ooooood8 o888o   o888o o888o  `Y8bood8P'  o888ooooood8 o888ooooood8 8""88888P'
 
- 
+
 class CfgVehicles
 {
 	class B_Soldier_base_F;
 	class I_Soldier_base_F;
 	class I_G_Soldier_base_F;
 
-	
 
 
 
 
-                                                      
-                                                                                
-                                                                                
+
+
+
+
 // ██╗   ██╗███╗   ██╗██╗███████╗ ██████╗ ██████╗ ███╗   ███╗███████╗
 // ██║   ██║████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗████╗ ████║██╔════╝
 // ██║   ██║██╔██╗ ██║██║█████╗  ██║   ██║██████╔╝██╔████╔██║███████╗
@@ -44,7 +44,7 @@ class CfgVehicles
 // ╚██████╔╝██║ ╚████║██║██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║███████║
 //  ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
 
-	
+
 	// BODYGUARD
 	class U_AEGIS_BLK_POLO_JEANS_BASE: B_Soldier_base_F
 	{
@@ -67,7 +67,7 @@ class CfgVehicles
 			tex[] = {};
 			mat[] = {"A3\Characters_F\Civil\Data\c_poloshirtpants.rvmat","A3\Characters_F\Civil\Data\c_poloshirtpants_injury.rvmat","A3\Characters_F\Civil\Data\c_poloshirtpants_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
 		};
-		
+
 	};
 
 	class U_AEGIS_BLUE_POLO_JEANS_BASE: U_AEGIS_BLK_POLO_JEANS_BASE
@@ -104,7 +104,7 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_blueplaid_polo_jeans.paa"};
 	};
 
-	
+
 
 	class U_AEGIS_WHITE_TAN_BASE: B_Soldier_base_F
 	{
@@ -115,7 +115,7 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"","ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_rollup_clothing.rvmat"};
 	};
 
-	
+
 	class U_AEGIS_WHITE_OLIVE_BASE: B_Soldier_base_F
 	{
 		scope = 1;
@@ -125,7 +125,7 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"","ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_rollup_clothing.rvmat"};
 	};
 
-	
+
 	class U_AEGIS_WHITE_BLACK_BASE: B_Soldier_base_F
 	{
 		scope = 1;
@@ -135,7 +135,7 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"","ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_rollup_clothing.rvmat"};
 	};
 
-	
+
 	class U_AEGIS_BLK_TAN_BASE: B_Soldier_base_F
 	{
 		scope = 1;
@@ -145,7 +145,7 @@ class CfgVehicles
 		hiddenSelectionsMaterials[] = {"","ASIN\AEGIS\addons\aegis_uniforms\data\uniforms\U_aegis_rollup_clothing.rvmat"};
 	};
 
-	
+
 	class U_AEGIS_BLK_OLIVE_BASE: B_Soldier_base_F
 	{
 		scope = 1;
@@ -217,9 +217,9 @@ class CfgVehicles
 
 	class U_AEGIS_GUER_OLIVE_BASE: I_G_Soldier_base_F
 	{
-		
+
 		scope = 1;
-		
+
 		author = "AEGIS Team";
 		nakedUniform = "U_BasicBody";
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
@@ -233,9 +233,9 @@ class CfgVehicles
 
 	class U_AEGIS_GUER_BLK_BASE: I_G_Soldier_base_F
 	{
-		
+
 		scope = 1;
-		
+
 		author = "AEGIS Team";
 		nakedUniform = "U_BasicBody";
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
@@ -254,7 +254,6 @@ class CfgVehicles
 
 
 }; // END VEHICLES
- 
 
 
 
@@ -321,15 +320,16 @@ class CfgVehicles
 
 
 
-// oooooo   oooooo     oooo oooooooooooo       .o.       ooooooooo.     .oooooo.   ooooo      ooo  .oooooo..o 
-//  `888.    `888.     .8'  `888'     `8      .888.      `888   `Y88.  d8P'  `Y8b  `888b.     `8' d8P'    `Y8 
-//   `888.   .8888.   .8'    888             .8"888.      888   .d88' 888      888  8 `88b.    8  Y88bo.      
-//    `888  .8'`888. .8'     888oooo8       .8' `888.     888ooo88P'  888      888  8   `88b.  8   `"Y8888o.  
-//     `888.8'  `888.8'      888    "      .88ooo8888.    888         888      888  8     `88b.8       `"Y88b 
-//      `888'    `888'       888       o  .8'     `888.   888         `88b    d88'  8       `888  oo     .d8P 
-//       `8'      `8'       o888ooooood8 o88o     o8888o o888o         `Y8bood8P'  o8o        `8  8""88888P'                                                                                          
 
-                                                                   
+// oooooo   oooooo     oooo oooooooooooo       .o.       ooooooooo.     .oooooo.   ooooo      ooo  .oooooo..o
+//  `888.    `888.     .8'  `888'     `8      .888.      `888   `Y88.  d8P'  `Y8b  `888b.     `8' d8P'    `Y8
+//   `888.   .8888.   .8'    888             .8"888.      888   .d88' 888      888  8 `88b.    8  Y88bo.
+//    `888  .8'`888. .8'     888oooo8       .8' `888.     888ooo88P'  888      888  8   `88b.  8   `"Y8888o.
+//     `888.8'  `888.8'      888    "      .88ooo8888.    888         888      888  8     `88b.8       `"Y88b
+//      `888'    `888'       888       o  .8'     `888.   888         `88b    d88'  8       `888  oo     .d8P
+//       `8'      `8'       o888ooooood8 o88o     o8888o o888o         `Y8bood8P'  o8o        `8  8""88888P'
+
+
 class cfgWeapons
 {
 	class Uniform_Base;
@@ -353,7 +353,7 @@ class cfgWeapons
 
 
 
-	
+
 // ██╗   ██╗███╗   ██╗██╗███████╗ ██████╗ ██████╗ ███╗   ███╗███████╗
 // ██║   ██║████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗████╗ ████║██╔════╝
 // ██║   ██║██╔██╗ ██║██║█████╗  ██║   ██║██████╔╝██╔████╔██║███████╗
@@ -622,7 +622,6 @@ class cfgWeapons
 			mass = 30;
 		};
 	};
-	
 
 
 
@@ -634,7 +633,8 @@ class cfgWeapons
 
 
 
-// ██╗  ██╗███████╗ █████╗ ██████╗  ██████╗ ███████╗ █████╗ ██████╗ 
+
+// ██╗  ██╗███████╗ █████╗ ██████╗  ██████╗ ███████╗ █████╗ ██████╗
 // ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝ ██╔════╝██╔══██╗██╔══██╗
 // ███████║█████╗  ███████║██║  ██║██║  ███╗█████╗  ███████║██████╔╝
 // ██╔══██║██╔══╝  ██╔══██║██║  ██║██║   ██║██╔══╝  ██╔══██║██╔══██╗
@@ -690,7 +690,7 @@ class cfgWeapons
 			passThrough = 1;
 		};
 	};
-	
+
 
 	class H_Cap_tan_pmc: H_Cap_pmc
 	{
@@ -700,7 +700,7 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\headgear\H_capb_tan_pmc.paa"};
 	};
 
-	
+
 	class H_Booniehat_blk: H_Booniehat_khk
 	{
 		author = "AEGIS Team";
@@ -717,9 +717,9 @@ class cfgWeapons
 		picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
 		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02";
 		hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\headgear\H_beret_black.paa"};
-		
+
 	};
-	
+
 
 
 	class H_Cap_AEGIS_blk: H_MilCap_oucamo
@@ -766,7 +766,7 @@ class cfgWeapons
 	// 		hiddenSelections[] = {"camo"};
 	// 	};
 	// };
-	
+
 
 
 
@@ -803,7 +803,7 @@ class cfgWeapons
 // ╚██╗ ██╔╝██╔══╝  ╚════██║   ██║   ╚════██║
 //  ╚████╔╝ ███████╗███████║   ██║   ███████║
 //   ╚═══╝  ╚══════╝╚══════╝   ╚═╝   ╚══════╝
-                                          
+
 	// class V_aegis_carrier_lite_blk : Vest_Base
 	// {
 	// 	scope = 2;
@@ -839,8 +839,33 @@ class cfgWeapons
 			hiddenSelections[] = {"camo","insignia"};
 			containerClass = "Supply140";
 			mass = 80;
-			armor = 20;
-			passThrough = 0.5;
+      class HitpointsProtectionInfo
+			{
+        class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+
 		};
 	};
 
@@ -862,8 +887,32 @@ class cfgWeapons
 			hiddenSelections[] = {"camo","insignia"};
 			containerClass = "Supply140";
 			mass = 100;
-			armor = 30;
-			passThrough = 0.5;
+      class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
 		};
 	};
 
@@ -885,8 +934,32 @@ class cfgWeapons
 			hiddenSelections[] = {"camo","insignia"};
 			containerClass = "Supply140";
 			mass = 80;
-			armor = 20;
-			passThrough = 0.5;
+      class HitpointsProtectionInfo
+			{
+        class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 16;
+					PassThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
 		};
 	};
 
@@ -908,8 +981,78 @@ class cfgWeapons
 			hiddenSelections[] = {"camo","insignia"};
 			containerClass = "Supply140";
 			mass = 100;
-			armor = 30;
-			passThrough = 0.5;
+      /*class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Arms
+				{
+					hitpointName = "HitArms";
+					armor = 8;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 24;
+					passThrough = 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 24;
+					passThrough = 0.1;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 24;
+					passThrough = 0.1;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.1;
+				};
+			};*/
+
+
+
+
+      class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName = "HitChest";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					HitpointName = "HitDiaphragm";
+					armor = 20;
+					PassThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+
+
+
 		};
 	};
 
@@ -919,7 +1062,7 @@ class cfgWeapons
 
 	// class ItemCore;
 	// class HeadgearItem;
- 
+
 	// class example_HelmetB : ItemCore
 	// {
 	// 	scope = 2;
@@ -929,7 +1072,7 @@ class cfgWeapons
 	// 	model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
 	// 	hiddenSelections[] = {"camo"};
 	// 	hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\cct_helmet_pt.paa"};
- 
+
 	// 	class ItemInfo : HeadgearItem
 	// 	{
 	// 		mass = 100;
@@ -940,10 +1083,10 @@ class cfgWeapons
 	// 		hiddenSelections[] = {"camo"};
 	// 	};
 	// };
- 
+
 	// class Vest_Base;
 	// class VestItem;
- 
+
 	// class example_PlateCarrier1_rgr : Vest_Base
 	// {
 	// 	scope = 2;
@@ -952,7 +1095,7 @@ class cfgWeapons
 	// 	model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 	// 	hiddenSelections[] = {"camo"};
 	// 	hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\cct_vest_pt.paa"};
- 
+
 	// 	class ItemInfo : VestItem
 	// 	{
 	// 		uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
