@@ -1060,6 +1060,111 @@ class cfgWeapons
 
 
 
+  class V_aegis_carrier_lite_wood: ItemCore
+  {
+    author = "AEGIS Team";
+    _generalMacro = "V_aegis_carrier_lite_wood";
+    displayName = "[AEGIS] Colete Leve (Floresta)";
+    scope = 2;
+    weaponPoolAvailable = 1;
+    allowedSlots[] = {901};
+    picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
+    hiddenSelections[] = {"camo","insignia"};
+    hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\vests\V_aegis_carrier_wood.paa"};
+    class ItemInfo: VestItem
+    {
+      uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+      hiddenSelections[] = {"camo","insignia"};
+      containerClass = "Supply140";
+      mass = 80;
+      class HitpointsProtectionInfo
+      {
+        class Chest
+        {
+          HitpointName = "HitChest";
+          armor = 16;
+          PassThrough = 0.3;
+        };
+        class Diaphragm
+        {
+          HitpointName = "HitDiaphragm";
+          armor = 16;
+          PassThrough = 0.3;
+        };
+        class Abdomen
+        {
+          hitpointName = "HitAbdomen";
+          armor = 16;
+          passThrough = 0.3;
+        };
+        class Body
+        {
+          hitpointName = "HitBody";
+          passThrough = 0.3;
+        };
+      };
+
+    };
+  };
+
+
+
+
+
+  class V_aegis_carrier_rig_wood: ItemCore
+  {
+    author = "AEGIS Team";
+    _generalMacro = "V_aegis_carrier_rig_wood";
+    displayName = "[AEGIS] Colete Médio (Floresta)";
+    scope = 2;
+    weaponPoolAvailable = 1;
+    allowedSlots[] = {901};
+    picture = "ASIN\AEGIS\addons\aegis_uniforms\ui\aegis_icon.paa";
+    hiddenSelections[] = {"camo","insignia"};
+    hiddenSelectionsTextures[] = {"ASIN\AEGIS\addons\aegis_uniforms\data\vests\V_aegis_carrier_wood.paa"};
+    class ItemInfo: VestItem
+    {
+      uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01";
+      hiddenSelections[] = {"camo","insignia"};
+      containerClass = "Supply140";
+      mass = 100;
+
+      class HitpointsProtectionInfo
+      {
+        class Chest
+        {
+          HitpointName = "HitChest";
+          armor = 20;
+          PassThrough = 0.2;
+        };
+        class Diaphragm
+        {
+          HitpointName = "HitDiaphragm";
+          armor = 20;
+          PassThrough = 0.2;
+        };
+        class Abdomen
+        {
+          hitpointName = "HitAbdomen";
+          armor = 20;
+          passThrough = 0.2;
+        };
+        class Body
+        {
+          hitpointName = "HitBody";
+          passThrough = 0.2;
+        };
+      };
+
+
+
+
+    };
+  };
+
+
+
+
 	// class ItemCore;
 	// class HeadgearItem;
 
