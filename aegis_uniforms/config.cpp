@@ -648,7 +648,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "[AEGIS] Boné Preto Virado";
 		picture = "\aegis_uniforms\ui\aegis_icon.paa";
-		model = "\\aegis_uniforms\data\headgear\H_capb_backwards.p3d";
+		model = "\aegis_uniforms\data\headgear\H_capb_backwards.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\aegis_uniforms\data\headgear\H_capb_pmc.paa"};
 		class ItemInfo: HeadgearItem
