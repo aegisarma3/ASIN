@@ -1,4 +1,4 @@
-# AEGIS MOD Versão 0.9 #
+# AEGIS MOD Versão 1.0 #
 
 Este repositório é para o modpack do AEGIS
 
