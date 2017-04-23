@@ -21,7 +21,7 @@ class CfgPatches {
         units[] = {"AEGIS_Offroad_Transport","AEGIS_Offroad_Armed","AEGIS_Offroad_Cargo","AEGIS_MH6M"};
        	weapons[] = {};
         requiredVersion = "0.1";
-        requiredAddons[] = {"A3_Soft_F","MELB","MELB_UI"};
+        requiredAddons[] = {"A3_Soft_F"};
         author = "Toaster";
         authorUrl = "http://aegisgroup.com.br/";
         version = "1.0";
@@ -29,15 +29,15 @@ class CfgPatches {
 };
 
 
-// oooooo     oooo oooooooooooo ooooo   ooooo ooooo   .oooooo.   ooooo        oooooooooooo  .oooooo..o 
-//  `888.     .8'  `888'     `8 `888'   `888' `888'  d8P'  `Y8b  `888'        `888'     `8 d8P'    `Y8 
-//   `888.   .8'    888          888     888   888  888           888          888         Y88bo.      
-//    `888. .8'     888oooo8     888ooooo888   888  888           888          888oooo8     `"Y8888o.  
-//     `888.8'      888    "     888     888   888  888           888          888    "         `"Y88b 
-//      `888'       888       o  888     888   888  `88b    ooo   888       o  888       o oo     .d8P 
-//       `8'       o888ooooood8 o888o   o888o o888o  `Y8bood8P'  o888ooooood8 o888ooooood8 8""88888P'  
+// oooooo     oooo oooooooooooo ooooo   ooooo ooooo   .oooooo.   ooooo        oooooooooooo  .oooooo..o
+//  `888.     .8'  `888'     `8 `888'   `888' `888'  d8P'  `Y8b  `888'        `888'     `8 d8P'    `Y8
+//   `888.   .8'    888          888     888   888  888           888          888         Y88bo.
+//    `888. .8'     888oooo8     888ooooo888   888  888           888          888oooo8     `"Y8888o.
+//     `888.8'      888    "     888     888   888  888           888          888    "         `"Y88b
+//      `888'       888       o  888     888   888  `88b    ooo   888       o  888       o oo     .d8P
+//       `8'       o888ooooood8 o888o   o888o o888o  `Y8bood8P'  o888ooooood8 o888ooooood8 8""88888P'
 
- 
+
 class UniformSlotInfo
 {
   slotType = 0;
@@ -45,7 +45,6 @@ class UniformSlotInfo
 };
 class CfgVehicles
 {
-  class MELB_MH6M;
   class Offroad_01_base_F;
   class Offroad_01_armed_base_F;
 
@@ -57,17 +56,7 @@ class CfgVehicles
   {
     class EventHandlers;
   };
-  class AEGIS_MH6M: MELB_MH6M
-  {
-    displayName = "[AEGIS] MH-6M";
-    side = 1;
-    faction = "AEGIS";
-    author = "Toaster";
-    forceInGarage = 1;
-    crew = "AEGIS_Operador";
-    hiddenSelections[] = {"camo1"};
-    hiddenSelectionsTextures[] = {"\aegis_vehicles\data\melb\melb_aegis_ext_co.paa"};
-  };
+
   class AEGIS_Offroad_Transport: C_Offroad_01_F
   {
     scope = 2;
@@ -81,7 +70,7 @@ class CfgVehicles
     enableGPS = 1;
     transportMaxBackpacks = 6;
     hiddenSelectionsTextures[] = {"\aegis_vehicles\data\offroad\offroad_01.paa","\aegis_vehicles\data\offroad\offroad_01.paa"};
-    
+
     class EventHandlers: EventHandlers
     {
       init = "_this select 0 setVariable [""BIS_enableRandomization"", false];";

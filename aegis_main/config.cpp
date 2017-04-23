@@ -25,7 +25,7 @@ class CfgPatches
 		author = "Toaster";
 		name = "AEGIS - Official Mod";
 		url = "http://aegisgroup.com.br";
-		requiredAddons[] = {"US_ESS_Glasses_tryk","TRYK_HRP","MELB","MELB_UI"};
+		requiredAddons[] = {};
 		requiredVersion = 0.1;
 		units[] = {};
 		weapons[] = {};
